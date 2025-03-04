@@ -1,0 +1,33 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   text-decoration: none;
+  list-style: none;
+}
+.continer{
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+}
+.nav{
+    display: flex;
+    justify-content:  space-between;
+    align-items: center;
+
+}
+header{
+    background-color: #4A939B;
+}
+.ol{
+  display: flex;
+  gap: 15px;
+}
+.ol a{
+    
+    transition: 0.5s;
+}
+.ol a:hover{
+    background-color: azure;
+    padding: 23px 18px;
+}
